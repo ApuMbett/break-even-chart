@@ -1,0 +1,29 @@
+{
+  "name": "break-even-chart",
+  "version": "1.0.0",
+  "description": "Break Even Chart component for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApuMbett/break-even-chart.git"
+  },
+  "keywords": [
+    "Break",
+    "Even",
+    "Point",
+    "Chart"
+  ],
+  "author": "ApuMbett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApuMbett/break-even-chart/issues"
+  },
+  "homepage": "https://github.com/ApuMbett/break-even-chart#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-google-charts": "^4.0.0"
+  }
+}
