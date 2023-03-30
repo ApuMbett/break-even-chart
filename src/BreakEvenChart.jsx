@@ -45,6 +45,8 @@ export default function BreakEvenChart(props) {
     title: "Break Even Chart",
     curveType: "function",
     legend: { position: "right" },
+    hAxis: { title: "Units Sold" },
+    vAxis: { title: "Costs-Revenues" },
     enableInteractivity: false,
     //explorer: {}, //TODO prevent negative quadrants
     isStacked: true,
