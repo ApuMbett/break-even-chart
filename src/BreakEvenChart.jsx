@@ -1,4 +1,4 @@
-import { Chart, GoogleDataTableColumnRoleType } from "react-google-charts";
+import { Chart } from "react-google-charts";
 function calculateBreakEvenPoint(salesPrice, variableCosts, fixedCosts) {
   return fixedCosts / (salesPrice - variableCosts);
 }
@@ -45,7 +45,6 @@ export default function BreakEvenChart(props) {
     title: "Break Even Chart",
     curveType: "function",
     legend: { position: "right" },
-    // hAxis: { gridlines: { count: 5 } },
     enableInteractivity: false,
     //explorer: {}, //TODO prevent negative quadrants
     isStacked: true,
@@ -80,7 +79,7 @@ export default function BreakEvenChart(props) {
       data={data}
       width={props.width}
       height={props.height}
-      options={options} //{props.options ?? options} //TODO add style capabilities
+      options={options} //TODO add style capabilities
     />
   );
 }
