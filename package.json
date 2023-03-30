@@ -2,7 +2,7 @@
   "name": "break-even-chart",
   "version": "1.0.0",
   "description": "Break Even Chart component for ReactJS",
-  "main": "index.js",
+  "main": "./src/BreakEvenChart.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,7 @@
     "Chart"
   ],
   "author": "ApuMbett",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ApuMbett/break-even-chart/issues"
   },
